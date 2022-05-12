@@ -104,7 +104,7 @@ On large teams, within the overall structure of a project, there is always room 
 
 ## It’s a continuous process
 
-“Kaizen” is a Japanese term that captures the concept **continuously making many small improvements**. Every day, work to redefine the skills you have and add new tools to your project.
+“Kaizen” is a Japanese term that captures the concept <span style="color:lightgreen;">**continuously making many small improvements**</span>. Every day, work to redefine the skills you have and add new tools to your project.
 
 # Chapter 1. A Pragmatic Philosophy
 
@@ -116,10 +116,10 @@ Take responsibility for everything you do.
 
 ## 2. The Cat Ate My Source Code
 
-Take responsibility for your career and don’t be afraid to admit ignorance or error. When you make a mistake, admit and **provide options - don’t make lame excuses**, or blame someone or something else.  
+Take responsibility for your career and don’t be afraid to admit ignorance or error. When you make a mistake, admit and <span style="color:lightgreen;">**provide options - don’t make lame excuses**</span>, or blame someone or something else.  
 *Tip – talk to the rubber duck before your coworker.*
 
-**Don’t say it can’t be done; explain what can be done** to salvage the situation. Think: “I don’t know but I will find out”.
+<span style="color:lightgreen;">**Don’t say it can’t be done; explain what can be done**</span> to salvage the situation. Think: “I don’t know but I will find out”.
 
 ## 3. Software Entropy
 
@@ -128,11 +128,11 @@ Entropy refers to the amount of disorder in a system.
 Technical debt (aka software rot) is like a broken window in a house.
 Ignoring a broken situation reinforces the idea that you don't care and nothing can be fixed. In this way, negative thoughts are spread among team members creating a vicious spiral. People lose the will to fight entropy because they perceive that no one else cares.
 
-**Don’t live with broken windows unrepaired** like bad designs, wrong decisions, or poor code.
+<span style="color:lightgreen;">**Don’t live with broken windows unrepaired**</span> like bad designs, wrong decisions, or poor code.
 
 ## 4. Stone Soup and Boiled Frogs
 
-If you think something needs to be changed, **be a catalyst for change** – develop the proposal, show people and say "it would be better if we added…" and they will ask and will join an ongoing success.  
+If you think something needs to be changed, <span style="color:lightgreen;">**be a catalyst for change**</span> – develop the proposal, show people and say "it would be better if we added…" and they will ask and will join an ongoing success.  
 You can’t force change on people. Instead, show them how the future might be and help them participate in creating it.
 
 On the other side, keep an eye on the big picture, don’t get so engrossed in the details that you forget to check what’s happening around you. Review what is happening around you, not just what you are doing (the frog just doesn’t notice the change).
@@ -141,23 +141,23 @@ On the other side, keep an eye on the big picture, don’t get so engrossed in t
 
 Produce good enough software, don’t frustrate yourself trying to produce perfect software without bugs, you need to know when to stop (discuss the scope and quality of the system).
 
-Your systems must meet users’ requirements, basic performance, privacy, and security standards. **Involve your users in determining the project’s real quality requirements.**
+Your systems must meet users’ requirements, basic performance, privacy, and security standards. <span style="color:lightgreen;">**Involve your users in determining the project’s real quality requirements.**</span>
 Involve them by giving them something to play with early and get feedback.
 
 > Feature bloat – software that contains more features than you would ever use, each implemented feature introduces more opportunities for bugs and security vulnerabilities.
 
-**Keep it simple.**
+<span style="color:lightgreen;">**Keep it simple.**</span>
 
 ## 6. Your Knowledge Portfolio
 
-The most important thing is your experience, knowledge, and ability to learn new things. **Invest in your knowledge portfolio regularly**, make learning an habit.  
+The most important thing is your experience, knowledge, and ability to learn new things. <span style="color:lightgreen;">**Invest in your knowledge portfolio regularly**</span>, make learning an habit.  
 
 To think critically, ask the “[Five Whys](https://en.wikipedia.org/wiki/Five_whys)” and ask *who does this benefits?, what is the context?, when or where would this work?, why is this a problem?...* 🤔  
-**Critically analyze what you read and hear**, don’t be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project.
+<span style="color:lightgreen;">**Critically analyze what you read and hear**</span>, don’t be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project.
 
 ## 7. Communicate
 
-**It’s both what you say and the way you say it**, there’s no point in having great ideas if you don’t communicate them effectively.
+<span style="color:lightgreen;">**It’s both what you say and the way you say it**</span>, there’s no point in having great ideas if you don’t communicate them effectively.
 
 Some tips:
 
@@ -169,7 +169,7 @@ Some tips:
 - Adjust the style of your talk to your audience (their skill level and experience).
 - Make a prettied document or presentation (with good format and spelling),
 - Always **respond** (even if you respond "I’ll get back to you later" to they don’t feel that you have forgotten them)
-- **Document** (why something is done, its purpose and its goal, engineering trade-offs, why decisions were made, discarder alternatives, and so on). **Build documentation in, don’t bolt it on**, documentation created separately from code is less likely to be correct and up to date.
+- **Document** (why something is done, its purpose and its goal, engineering trade-offs, why decisions were made, discarder alternatives, and so on). <span style="color:lightgreen;">**Build documentation in, don’t bolt it on**</span>, documentation created separately from code is less likely to be correct and up to date.
 
 > Reminder: tl;dr – too long; didn’t read.  
 
@@ -209,7 +209,7 @@ This duplication is inevitable, but can be migrated with some strategies:
     4. **Interdeveloper Duplication**: Occurs when different developers work on the same project. You don’t know if the other dev did something similar.  
     Solution: communication (daily, threads to discuss common problems, appoint a ‘project librarian’ who facilitates the exchange of knowledge, code reviews).  
 
-**Make the code easy to reuse**, if it’s easy to reuse, people will. Create an environment that supports reuse. ♻️
+<span style="color:lightgreen;">**Make the code easy to reuse**</span>, if it’s easy to reuse, people will. Create an environment that supports reuse. ♻️
 
 ## 10. Orthogonality
 
@@ -220,7 +220,7 @@ In computing, orthogonality means independency and decoupling. If you change one
 - **Increase productivity**: changes localized, less time developing and testing, reusing components, and combining orthogonal components.
 - **Reduce risk**: diseased components are isolated so less likely to spread symptoms to the rest of the system. The resulting system is less fragile because if you make changes in a particular area and provoke problems, they are restricted to that area. Orthogonal systems are better tested.
 
-**Eliminate effects between unrelated things** - design components that are self-contained, independent, and have a single, well-defined purpose.
+<span style="color:lightgreen;">**Eliminate effects between unrelated things**</span> - design components that are self-contained, independent, and have a single, well-defined purpose.
 
 ### Design orthogonal systems
 
@@ -259,7 +259,7 @@ Content must be independent of presentation. Focus on content (using markup syst
 ## 11. Reversibility
 
 Requirements, users, and hardware change faster than we can get the software developed.  
-**Don’t assume any decision is final/definitive**, prepare for contingencies that might arise - plan for change.  
+<span style="color:lightgreen;">**Don’t assume any decision is final/definitive**</span>, prepare for contingencies that might arise - plan for change.  
 
 ### Flexible arquitecture
 
@@ -283,7 +283,7 @@ So first, you need to prioritize these areas to code:
 - Areas where you have doubts
 - Areas where you see the biggest risks
 
-**Use tracer bullets to find the target** - Tracer bullets let you home in on your target by trying things and seeing how close they land.
+<span style="color:lightgreen;">**Use tracer bullets to find the target**</span> - Tracer bullets let you home in on your target by trying things and seeing how close they land.
 
 Tracer code designs the skeleton of the final system. Every major application component is represented in your code, it’s not fully functional, but you will adjust and add more functionalities – it’s an **incremental approach**. Tracer code is agile and lean but complete.  
 
@@ -305,7 +305,7 @@ Otherwise, the prototype is not a tracer bullet. With prototyping, you gather kn
 
 ## 13. Prototypes and Post-it Notes
 
-Prototype is for analyzing and exposing risk, to identify potential problem spots early in the development process. To test specific aspects of the system being considered. **Prototype to learn** - prototyping is a learning experience. Its value lies not in the code you produce, but in the lessons you learn.
+Prototype is for analyzing and exposing risk, to identify potential problem spots early in the development process. To test specific aspects of the system being considered. <span style="color:lightgreen;">**Prototype to learn**</span> - prototyping is a learning experience. Its value lies not in the code you produce, but in the lessons you learn.
 
 - For prototype dynamic things such as workflow and application logic you can use post-it notes.
 - For a prototype user interface you can draw on a whiteboard or use a tool that lets you focus on the appearance and interactions without worrying about code or markup.
@@ -338,7 +338,7 @@ Domain Language that lets us express solutions to problems in a way that is clos
 
   > Suggestion: use external DSL only in cases where your language will be written by the users of your application.
 
-**Program close to the problem domain** - design and code in the language of the problem domain.
+<span style="color:lightgreen;">**Program close to the problem domain**</span> - design and code in the language of the problem domain.
 
 ## 15. Estimating
 
@@ -383,7 +383,7 @@ As you finish an iteration, you can use that to refine your project estimates, a
 
 ## 16. The Power of Plain Text
 
-**Store knowledge persistently in plain text**, which must be understandable to humans(self-describing data).  
+<span style="color:lightgreen;">**Store knowledge persistently in plain text**</span>, which must be understandable to humans(self-describing data).  
 You can place the file in plain text in a version control system to automatically keep a history of all changes (file comparison tools).  
 Plain text won’t become obsolete. It helps leverage your work and simplifies debugging and testing. All parties can communicate using a common standard → plain text.
 
@@ -394,7 +394,7 @@ Use command shells to use the full capabilities of your environment, like invoke
 
 ## 18. Power Editing
 
-**Achieve editor fluency** - An editor is your most important tool. Know how to make it do what you need, quickly and accurately.  
+<span style="color:lightgreen;">**Achieve editor fluency**</span> - An editor is your most important tool. Know how to make it do what you need, quickly and accurately.  
 Gain fluency with your IDE (also try other editors), check if you are doing something repetitive, get into the habit of thinking "there must be a better way", try not to use the mouse (jot down key sequences), look for integrations and if you don’t find an extension for something - build it.
 
 ## 19. Version Control
@@ -476,18 +476,18 @@ Don't catch or rescue all exceptions, better propagate them automatically.
 
 Basic principle: when your code discovers that something that was supposed to be impossible just happened, your program is no longer viable. Anything it does from this point forward becomes suspect, so terminate it as soon as possible. 💣  
 
-**Crash early - a dead program normally does a lot less damage than a crippled (invalid) one.**
+<span style="color:lightgreen;">**Crash early - a dead program normally does a lot less damage than a crippled (invalid) one.**</span>
 
 ## 25. Assertive Programming
 
-**Use assertions to prevent the “impossible”**. If it can’t happen, use assertions to ensure that it won’t. Assertions validate your assumptions.  
+<span style="color:lightgreen;">**Use assertions to prevent the “impossible”**</span>. If it can’t happen, use assertions to ensure that it won’t. Assertions validate your assumptions.  
 Use them to protect your code from an uncertain world. Because testing doesn’t find all bugs and your program runs in a dangerous world (during testing you are mocking communications, etc.).  
 Assertions give you feedback and allow you to fix hard-to-reproduce bugs.
 
 ## 26. How to Balance Resources
 
 When we code, we manage resources like memory, transactions, threads, network connections, files, timers, etc. All of them have limited availability.  
-For this reason, we need to **allocate the resource, use it, and then deallocate it**.  
+For this reason, we need to <span style="color:lightgreen;">**allocate the resource, use it, and then deallocate it**</span>.  
 **The function or object that allocates a resource should be responsible for deallocating it** because if allocation and deallocation occur in different functions deallocation can not be done or you can try to deallocate something that is not allocated by an error.  
 
 Act locally - keep the scope of mutable variables and open resources short and easily visible.
@@ -510,7 +510,7 @@ For Languages that support exceptions; if an exception is thrown, to guarantee t
 
 📖  [whole topic](https://media.pragprog.com/titles/tpp20/dont-outrun-your-headlights.pdf)
 
-We can't see too far ahead into the future, so better **take small steps always**; checking for feedback and adjusting before proceeding. Consider that the rate of feedback is your speed limit. You never take on a step or a task that’s “too big”.
+We can't see too far ahead into the future, so better <span style="color:lightgreen;">**take small steps always**</span>; checking for feedback and adjusting before proceeding. Consider that the rate of feedback is your speed limit. You never take on a step or a task that’s “too big”.
 
 ## Avoid Fortune-Telling 🔮
 
@@ -521,7 +521,7 @@ Just estimate as far ahead as you can see. For that, ensure make code replaceabl
 ## 28. Decoupling
 
 Coupling occurs anytime when two pieces of code share something. Our code must be flexible, individual components should be coupled to as few other components as possible.  
-**Decoupled code is easier to change** - coupling ties things together, so that it’s harder to change just one thing.
+<span style="color:lightgreen;">**Decoupled code is easier to change**</span> - coupling ties things together, so that it’s harder to change just one thing.
 
 ### The Law of Demeter (LoD)
 
@@ -530,7 +530,7 @@ Use Demeter’s law to keep your functions clearer and decoupled. LoD says:
 
 Don’t get values from an object, transform them, and then stick them back. Make the object do the work.
 
-Authors from the book express this law in a simple way with the tip **“Don't chain method calls”**, try not to have more than one dot when you access something.
+Authors from the book express this law in a simple way with the tip <span style="color:lightgreen;">**“Don't chain method calls”**</span>, try not to have more than one dot when you access something.
 
 ```java
 a.getB().methodB(); //Violated Demeter's law
@@ -594,16 +594,16 @@ Drawbacks:
 
 ## 30. Transforming Programming
 
-**Programming is about code, but programs are about data - all programs transform data, converting an input (what we have) into an output (what we want)**.  
+<span style="color:lightgreen;">**Programming is about code, but programs are about data - all programs transform data, converting an input (what we have) into an output (what we want)**</span>.  
 Start designing using transformations. The easiest way to find the transformations is to start with the requirement (a function that represents the overall program) and determine its inputs and outputs.
 
 Pipe operator (`|>`) helps to think in terms of transforming data, seeing a place where data is following between one transformation and the next.
 
 In object-oriented (OO) programming, the idea is to hide data, encapsulating it inside objects. This introduces a lot of coupling, and it is a big reason that OO systems can be hard to change.  
-**Don’t hoard state; pass it around**. Don’t hang on to data within a function or module, take one down and pass it around.  
+<span style="color:lightgreen;">**Don’t hoard state; pass it around**</span>. Don’t hang on to data within a function or module, take one down and pass it around.  
 
 To manage Error Handling during the state transformations, not pass raw data between transformations, wrap them in a data structure (ex: `{:ok, value}` or `{:error, reason}`). You can handle checking for errors inside your transformations or outside them.  
-**Think in code as a series of (nested) transformations.**
+<span style="color:lightgreen;">**Think in code as a series of (nested) transformations.**</span>
 
 ## 31. Inheritance Tax
 
@@ -617,15 +617,15 @@ There are 2 reasons why Object Oriented (OO) developers use inheritance:
 Problem → **Inheritance is coupling**
 
 The code that uses the child is also coupled to all the ancestors (parent’s parent and so on), so if you change something from the ancestors classes, you could break the child code.  
-In the end, diagrams grow and you will have layer-upon-layer adding complexity where it’s hard to change → **Don't pay inheritance tax.**  
+In the end, diagrams grow and you will have layer-upon-layer adding complexity where it’s hard to change → <span style="color:lightgreen;">**Don't pay inheritance tax.**</span>  
 Alternatives to not using inheritance:
 
 1. **Interfaces and protocols**  
 Interfaces just specify that any class that implements X interface must implement all methods declared in X interface, but don't dictate how the code should be written. Interfaces and protocols give polymorphism without the coupling introduced by inheritance.
 
-    > Polymorphism: ability by which when calling the same method (example: `sound()`) from different objects (example: `Cat`, `Dog`, `Cow`), each of these objects can respond in a different way (example: ‘meow’, woof, ‘moo’).
+    > Polymorphism: ability by which when calling the same method (example: `sound()`) from different objects (example: `Cat`, `Dog`, `Cow`), each of these objects can respond in a different way (example: "meow", "woof", "moo").
 2. **Delegation**  
-Delegate to services: has X trumps is X. **Don’t inherit from services, contain them.**  
+Delegate to services: has X trumps is X. <span style="color:lightgreen;">**Don’t inherit from services, contain them.**</span>  
 Delegation allows split the methods of the class to not rely on the parent class API. We can either write the method directly in the class or create another class that delegates the method that is related to the class.  
 In other words, receiving object handles operations by delegating to its delegate, which is a helper object with the original context. Delegation pattern explanations - [page](http://best-practice-software-engineering.ifs.tuwien.ac.at/patterns/delegation.html) and [wiki](https://en.wikipedia.org/wiki/Delegation_pattern).
 3. **Mixins** (aka traits, categories, protocol extensions…) - for share functionality.  
@@ -634,7 +634,7 @@ Mixins add functionality to classes without the inheritance tax. Combine with in
 
 ## 32. Configuration
 
-Keep values that may change after the application has gone live, **external** to the application → **Parameterize your app using external configuration.**  
+Keep values that may change after the application has gone live, **external** to the application → <span style="color:lightgreen;">**Parameterize your app using external configuration.**</span>  
 Wrap the configuration information behind a (thin) API to access to this configuration. This decouples your code from the details of the representation of the configuration.  
 
 Benefits of store config data behind service API:
@@ -665,7 +665,7 @@ There are two aspects of time that are important to us:
 - **ordering** (the relative positions of things in time).  
 
 We need to allow for concurrency and to think about decoupling any time or order dependencies.  
-**Analyze workflow to improve concurrency** - exploit concurrency in your user’s workflow.  
+<span style="color:lightgreen;">**Analyze workflow to improve concurrency**</span> - exploit concurrency in your user’s workflow.  
 To find out what can happen at the same time, and what must happen in a strict order, we can use a notation such as the activity diagram.
 > An activity diagram consists of a set of actions drawn as rounded boxes.  
 The arrow leaving an action leads to either another action (which can start once the first action completes) or to a thick line called a synchronization bar.  
@@ -690,11 +690,11 @@ When several processes are reading and updating a value from a shared memory, ne
 To make it atomic, we can use a **semaphore** 🚦 - a technique where only one process can own at a time and control access to some resource. When both processes run at the same time, one of them will proceed while the other will be suspended until the semaphore becomes available again.  
 Not only shared state, but problems can also pop up anywhere where your code shares mutable resources: files, databases, external services, and so on.  Whenever two or more instances of your code can access some resource at the same time, you're looking at a potential problem.
 
-**Random failures are often concurrency issues**. Variations in timing and context can expose concurrency bugs, but in inconsistent and irreproducible ways. For example, the current directory is shared between threads.
+<span style="color:lightgreen;">**Random failures are often concurrency issues**</span>. Variations in timing and context can expose concurrency bugs, but in inconsistent and irreproducible ways. For example, the current directory is shared between threads.
 
 ## 35. Actors and Processes
 
-**Use actors for concurrency without shared state**. It is a way of implementing concurrent state without synchronizing access to shared memory (without a shared state).
+<span style="color:lightgreen;">**Use actors for concurrency without shared state**</span>. It is a way of implementing concurrent state without synchronizing access to shared memory (without a shared state).
 
 - An **actor** is an independent virtual processor with its own local (and private) state.
 - A **process** is typically a more general-purpose virtual processor, often implemented by the operating system to facilitate concurrency.
@@ -720,7 +720,7 @@ It has a blackboard component, acting as a central data repository, and an inter
 - The system sends notifications, known as trigger, and data to the clients when changes occur in the data. The data store alerts the clients whenever there is a data-store change.
 - Responses can arrive in any order.
 
-**Use blackboards to coordinate workflow.**  
+<span style="color:lightgreen;">**Use blackboards to coordinate workflow.**</span>  
 Use blackboards to coordinate disparate facts and agents, while maintaining independence and isolation among participants.  
 
 The actor and/or blackboard and/or microservice approach to architecture removes potential concurrency problems from your applications, but these approaches are harder to reason about because a lot of the action is indirect.  
@@ -761,7 +761,7 @@ We should avoid programming by coincidence, relying on luck and accidental succe
 If we don't know why the code is failing because we didn't know why it worked in the first place.  
 Human beings are designed to see patterns and causes, even when it's just a coincidence.  
 
-**Don't assume it, prove it.**
+<span style="color:lightgreen;">**Don't assume it, prove it.**</span>
 Finding an answer that happens to fit is not the same as the right answer. Assumptions that aren't based on well-established facts are the bane of all projects.
 
 ### How to program deliberately
@@ -797,23 +797,23 @@ Common sense estimation:
 - Simple loops: `O(n)`. Linear, sequential search, for example, the loop runs from 1 to `n`.
 - Nested loops: `O(m x n)` → `O(n²)`. For example: sorting algorithms.
 - Binary chop: `O(log(n))`. Algorithm which halves the set of inputs considers each time around the loop.
-- Divide and conquer: O(n log(n)). Algorithms that partition their input, work on the two halves independently, and then combine the result.
+- Divide and conquer: `O(n log(n))`. Algorithms that partition their input, work on the two halves independently, and then combine the result.
 - Combinatoric: `O(Cⁿ)`. Algorithm starts looking at the permutations (permutations involve factorials) - Hard problems like the traveling salesman problem.  
 
 ### Algorithm speed in practice
 
-**Estimate the order of your algorithms** (time, memory, etc.).  
+<span style="color:lightgreen;">**Estimate the order of your algorithms**</span> (time, memory, etc.).  
 Get a feel for how long things are likely to take before you write code.  
 If you’re not sure how long your code will take, or how much memory it will use, try running it, varying the input record count, or whatever is likely to impact the runtime. Then plot the results. You’ll get an idea of the shape of the curve (three or four points should give you an idea).  
 
 **Test your estimates**. Mathematical analysis of algorithms doesn’t tell you everything. Try timing your code in its target environment.  
 
-You also need to be pragmatic about choosing appropriate algorithms, **the fastest one is not always the best for the job.**  
+You also need to be pragmatic about choosing appropriate algorithms, <span style="color:lightgreen;">**the fastest one is not always the best for the job.**</span>  
 It's always a good idea to make sure if an algorithm is really a bottleneck before investing your precious time trying to improve it.⌛
 
 ## 40. Refactoring
 
-**Code needs to evolve; it's not a static thing.**
+<span style="color:lightgreen;">**Code needs to evolve; it's not a static thing.**</span>
 
 Refactoring definition by Martin Fowler:
 > “Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior.”  
@@ -828,7 +828,7 @@ You should refactor:
 - **Performance.** You need to move functionality from one area of the system to another to improve performance.
 - **The tests pass.** Tidy up tests.  
 
-**Refactor early, refactor often** because in the future there will be more dependencies and it will be harder. And make sure that the refactor gets placed on the schedule and that users of the affected code know that it is scheduled to be rewritten and how this might affect them. 📅
+<span style="color:lightgreen;">**Refactor early, refactor often**</span> because in the future there will be more dependencies and it will be harder. And make sure that the refactor gets placed on the schedule and that users of the affected code know that it is scheduled to be rewritten and how this might affect them. 📅
 
 Martin Fowler offers simple tips to refactor without doing more harm than good:
 
@@ -838,7 +838,7 @@ Martin Fowler offers simple tips to refactor without doing more harm than good:
 
 ## 41. Test to Code
 
-**Testing is not about finding bugs**, the major benefits of testing happen when you think about and write the tests, not when you run them. 🤔  
+<span style="color:lightgreen;">**Testing is not about finding bugs**</span>, the major benefits of testing happen when you think about and write the tests, not when you run them. 🤔  
 Thinking about writing a test for our method made us look at it from the outside as if we are a client of the code, not the author. A test is a perspective into your code, and gives you feedback about its design, api, and coupling. Thinking about testing made us reduce coupling in our code and increase flexibility.  
 
 ### Test Driven Development
@@ -852,7 +852,7 @@ The basic cycle of TDD ([Test Driven Development](https://en.wikipedia.org/wiki/
 5. Refactor your code: see if there's a way to improve on what you just wrote, and make sure the test is still passed when you're done
 
 <p align="center">
-<img src=assets/tdd.svg.png width=300 height=200> 
+<img src=assets/tdd.png width=250 height=200> 
 </p>
 
 ### Build End-to-End, Not Top-Down or Bottom Up
@@ -873,7 +873,7 @@ Test each module, in isolation, to verify its behavior. And when we have the con
 
 Write test cases that ensure that a given unit honors its contract, this tells us; whether the code meets the contract, and whether the contract means what we think it means.
 
-**Design to test** - start thinking about testing before you write a line of code.
+<span style="color:lightgreen;">**Design to test**</span> - start thinking about testing before you write a line of code.
 
 ### Build a test window
 
@@ -900,7 +900,7 @@ There are also code invariants, things that remain true about some piece of stat
 
 So you can use contracts and invariants to automate our testing.
 
-**Use property-based tests to validate your assumptions** - property-based tests will try things you never thought to try, and exercise your code in ways is wasn’t meant to be used.  
+<span style="color:lightgreen;">**Use property-based tests to validate your assumptions**</span> - property-based tests will try things you never thought to try, and exercise your code in ways is wasn’t meant to be used.  
 
 One suggestion is that when a property-based test fails, find out what parameters it was passing to the test function, and then use those values to create a separate, regular, unit test.  
 This test acts as a regression test because property-based tests generate random values that get passed to your test, there’s no guarantee that the same values will be used the next time you run tests, and in this way, this bug won’t slip through.  
@@ -941,46 +941,46 @@ Never use single letter variables (such as `i`, `j`, …)
 
 It's important that everyone on the team knows what the common names are being used and that they use them consistently. You can spread the jargon by communication like pair programming or creating a project glossary.  
 
-**Name well; rename when needed** - If you see a name that no longer expresses the intent or is misleading or confusing, rename it.
+<span style="color:lightgreen;">**Name well; rename when needed**</span> - If you see a name that no longer expresses the intent or is misleading or confusing, rename it.
 
 # Chapter 8. Before The Project
 
 ## 45. The Requirements Pit
 
 It’s not enough simply being told what to do or listening to users, you need to dig for the requirements.  
-Requirements are buried deep beneath layers of assumptions, misconceptions, and politics. Even worse, often they don’t really exist at all. → **Don't Gather Requirements—Dig for Them.**
+Requirements are buried deep beneath layers of assumptions, misconceptions, and politics. Even worse, often they don’t really exist at all. → <span style="color:lightgreen;">**Don't Gather Requirements—Dig for Them.**</span>
 
 ### No one knows exactly what they want
 
-They might know a general direction, but they won’t know the twists and turns. So **programmers help people understand what they want**.  
+They might know a general direction, but they won’t know the twists and turns. So <span style="color:lightgreen;">**programmers help people understand what they want**</span>.  
 Usually, the initial statement of need given by the client is not an absolute requirement, it’s really an invitation to explore. We need to look for edge cases and ask about them.  
 
 Your role in this is to interpret what the client says and to feedback to them the implications. You’re thinking and contributing to a solution.
 
 ### Requirements are a process
 
-**Requirements are learned in a feedback loop.** Understanding requirements requires exploration and feedback, so the consequences of decisions can be used to refine the initial ideas.  
+<span style="color:lightgreen;">**Requirements are learned in a feedback loop.**</span> Understanding requirements requires exploration and feedback, so the consequences of decisions can be used to refine the initial ideas.  
 Produce mockups and prototypes and let the client play with them. It’s better to make short iterations that end with client feedback, this makes you sure you are in the right direction and you minimize a lot of time.  
 
-A technique for getting client ideas is to **become a client**, and **work with a user to think like a user**. It’s the best way to gain insight into how the system will really be used. This will give you feedback and learn their expectations.  
+A technique for getting client ideas is to **become a client**, and <span style="color:lightgreen;">**work with a user to think like a user**</span>. It’s the best way to gain insight into how the system will really be used. This will give you feedback and learn their expectations.  
 
 ### Requirements vs. Policy
 
 When policy (business policy) changes (and it will!), only the metadata for that system will need to be updated. In fact, gathering requirements in this way naturally leads you to a system that is well factored to support metadata.  
 An example of policy could be: “Only supervisors and personnel department may view records from the employees”. But in reality, developer should interpret “Only authorized users may access an employee record” and design some kind of access control system.
 
-**Think policy as metadata**, think policy information as an example of the type of thing the system needs to support. Don’t hardcode policy into a system; instead express it as metadata used by the system.
+<span style="color:lightgreen;">**Think policy as metadata**</span>, think policy information as an example of the type of thing the system needs to support. Don’t hardcode policy into a system; instead express it as metadata used by the system.
 
 Early feedback, with prototypes or tracer bullets, will let your clients say “yes, it does what I want, but not how I want.”
 
 ### Document requirements
 
-**Requirements documents are not for clients.**  
+<span style="color:lightgreen;">**Requirements documents are not for clients.**</span>  
 The requirements document is a document understanding of what the client wants.  
 It is written for developers and contains information and subtleties that are sometimes incomprehensible and frequently boring to the client.  
 It’s needed because developers on a team need to know what they’ll be doing.
 
-**Requirements documents are for planning.**
+<span style="color:lightgreen;">**Requirements documents are for planning.**</span>
 They are short descriptions (user stories) that describe what a small portion of the app should do from the perspective of a user of that functionality.  
 Keeping this statement of requirements short, you’re encouraging developers to ask clarifying questions. You’re enhancing the feedback process between clients and coders before and during the creation of each piece of code.  
 Many project failures are blamed on an increase in scope.  
@@ -993,7 +993,7 @@ Create and maintain a project glossary, a single source, that defines all the sp
 
 ## 46. Solving Impossible Puzzles
 
-**Don't think outside the box → Find the box.** 📦  
+<span style="color:lightgreen;">**Don't think outside the box → Find the box.**</span> 📦  
 Identify the real (not imagined) constraints, and find a solution therein.  
 The key to solving puzzles is both to recognize the constraints placed on you and to recognize the degrees of freedom you do have, for in those you'll find your solution.  
 Ask yourself: “Does it have to be done this way? Does it have to be done at all?”  
@@ -1012,7 +1012,7 @@ Working with someone means asking questions and having discussions while you’r
 - **Pair programming**:  the developer acting as typist must focus on the low-level details of syntax and coding style, while the other developer is free to consider higher-level issues and scope.
 - **Mob programming**: like pair programming but with more people (4-5). Can include users, project sponsors, and testers. And the typist swaps out every 5-10 minutes.
 
-**Don't go into the code alone**. Programming can be difficult and demanding. Take a friend with you.
+<span style="color:lightgreen;">**Don't go into the code alone**</span>. Programming can be difficult and demanding. Take a friend with you.
 
 ## 48. The Essence of Agility
 
@@ -1061,7 +1061,7 @@ People assume that someone else is handling an issue, or that the team leader mu
 
 ### Schedule your knowledge portfolio 📅
 
-**Schedule it to make it happen** - trying to get things done “whenever there’s a free moment” means they will never happen.  
+<span style="color:lightgreen;">**Schedule it to make it happen**</span> - trying to get things done “whenever there’s a free moment” means they will never happen.  
 Teams need to consider their knowledge and skill investments as well. Schedule reflection, experimentation, learning and skills improvement.
 
 So don't reserve it for only feature development, the team works in more tasks, like:
@@ -1091,7 +1091,7 @@ It’s easy and tempting to fall into the cargo cult trap: by investing in and b
 
 ### Context matters
 
-**Do what works, not what’s fashionable**. Don’t adopt a development method or technique just because other companies are doing it. Adopt what works for your team, in your context.
+<span style="color:lightgreen;">**Do what works, not what’s fashionable**</span>. Don’t adopt a development method or technique just because other companies are doing it. Adopt what works for your team, in your context.
 Beware if you imitate the form but not the content, like adopting policies and processes of successful companies, think that each company has different context.  
 If you want to try something, pilot the idea with a small team or set of teams. Keep the good bits that seem to work well, and discard anything else as waste or overhead.
 
@@ -1104,12 +1104,12 @@ Deliver when users need it. Don’t wait weeks or months to deliver just because
 Three critical and interrelated topics:
 
 1. **Version Control**: keep everything needed to build your project under version control, it allows build machines to be ephemeral.  
-**Use version control to drive builds, tests, and releases.** - That is, use commits or pushes to trigger builds, tests, releases, and built in a container in the cloud.  
+<span style="color:lightgreen;">**Use version control to drive builds, tests, and releases.**</span> - That is, use commits or pushes to trigger builds, tests, releases, and built in a container in the cloud.  
 Release to beta or production is specified by using a tag in your version control system.
 
-2. **Regression Testing**: **Test early. Test often. Test automatically.**
+2. **Regression Testing**: <span style="color:lightgreen;">**Test early. Test often. Test automatically.**</span>
 Tests that run with every build are the most effective.  
-The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a little". **Coding ain't done until all the tests run.**  
+The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a little". <span style="color:lightgreen;">**Coding ain't done until all the tests run.**</span>  
 “test for real” - the test environment should match the production environment closely. Any gaps are where bugs breed.
 
     The build may cover:
@@ -1119,21 +1119,21 @@ The earlier a bug is found, the cheaper it is to remedy. "Code a little, test a 
     - **Validation and verification**: test if you are delivering what users needs - get user feedback
     - **Performance or stress testing**: the software meets the performance requirements under real-world conditions (is it scalable?).  
 
-    **Testing the tests**: **Use saboteurs to test your testing**. After you have written a test to detect a particular bug, cause the bug deliberately and make sure the test catch it.  
+    **Testing the tests**: <span style="color:lightgreen;">**Use saboteurs to test your testing**</span>. After you have written a test to detect a particular bug, cause the bug deliberately and make sure the test catch it.  
 
     **Testing thoroughly**: Testing just lines of code isn’t enough. Coverage analysis tools that watch your code during testing and keep track of which lines of code have been executed and which haven’t (don’t expect to see 100% coverage). But knowing that you executed this line of code doesn’t tell you that—you would need to identify all possible states of the program.  
-    So **Test State Coverage, Not Code Coverage.**  
+    So <span style="color:lightgreen;">**Test State Coverage, Not Code Coverage.**</span>  
     Identify and test significant program states. You can test state coverage with Property-Based Testing - a way to explore how your code handles unexpected states is to have a computer generate those states. Use property-based testing techniques to generate test data according to the contracts and invariants of the code under test.  
 
-    **Tightening the Net**: If a bug slips through the net of existing tests, you need to add a new test to trap it next time → **Find bugs once**
+    **Tightening the Net**: If a bug slips through the net of existing tests, you need to add a new test to trap it next time → <span style="color:lightgreen;">**Find bugs once**</span>
 
 3. **Full Automation**: Bugs would appear on one machine but not on others.  
-Tracking down version differences of any one component usually revealed a surprise → **Don’t use manual procedures**. A shell script or program will execute the same instructions, in the same order, time after time.
+Tracking down version differences of any one component usually revealed a surprise → <span style="color:lightgreen;">**Don’t use manual procedures**</span>. A shell script or program will execute the same instructions, in the same order, time after time.
 
 ## 52. Delight Your Users
 
 Our goal as developers is to delight users. Users have a business problem that needs solving within the context of their objectives and budget.  
-**Delight users, don’t just deliver code**. Develop solutions that produce business value for your users and delight them every day.
+<span style="color:lightgreen;">**Delight users, don’t just deliver code**</span>. Develop solutions that produce business value for your users and delight them every day.
 Ask a simple question: How will you know that we’ve all been successful a month (or a year, or whatever) after this project is done?  
 Once expectations of value behind the project, you can think about how you can deliver against them:
 
